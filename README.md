@@ -1,3 +1,4 @@
+Markdown
 <div align="center">
 
 # 🚀 InterviewAI-Pro
@@ -34,20 +35,17 @@
 ```bash
 git clone [https://github.com/abdullahijaz5961/interviewai-pro.git](https://github.com/abdullahijaz5961/interviewai-pro.git)
 cd interviewai-pro
-
-### **2. Launch Backend**
+2. Launch Backend
 Bash
 cd backend
 pip install -r requirements.txt
 alembic upgrade head
 uvicorn app.main:app --reload
-
-### **3. Launch Frontend**
+3. Launch Frontend
 Bash
 cd frontend
 npm install
 npm run dev
-
 🎯 Future Roadmap
 [ ] Implement AI-driven question generation
 
@@ -56,4 +54,3 @@ npm run dev
 [ ] Integrate real-time code execution environment
 
 Developed by Abdullah Ijaz
-
