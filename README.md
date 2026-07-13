@@ -14,6 +14,7 @@
 ---
 
 ## 📖 Overview
+
 **InterviewAI-Pro** is a high-performance full-stack ecosystem designed to bridge the gap between preparation and execution. By simulating real-world technical interview environments, this platform provides immediate feedback, structured tracking, and a professional-grade workspace for aspiring software engineers.
 
 ---
@@ -24,7 +25,6 @@
 | :--- | :--- |
 | **Backend** | Python, FastAPI, Alembic, SQLite |
 | **Frontend** | React, Vite, JavaScript/TypeScript |
-| **DevOps** | Git, Vercel (Deployment) |
 
 ---
 
@@ -34,17 +34,20 @@
 ```bash
 git clone [https://github.com/abdullahijaz5961/interviewai-pro.git](https://github.com/abdullahijaz5961/interviewai-pro.git)
 cd interviewai-pro
-2. Launch Backend
+
+### **2. Launch Backend**
 Bash
 cd backend
 pip install -r requirements.txt
 alembic upgrade head
 uvicorn app.main:app --reload
-3. Launch Frontend
+
+### **3. Launch Frontend**
 Bash
 cd frontend
 npm install
 npm run dev
+
 🎯 Future Roadmap
 [ ] Implement AI-driven question generation
 
@@ -53,3 +56,4 @@ npm run dev
 [ ] Integrate real-time code execution environment
 
 Developed by Abdullah Ijaz
+
